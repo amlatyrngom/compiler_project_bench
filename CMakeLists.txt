@@ -3,4 +3,4 @@ project(compiler_project_benchmark)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(compiler_project_benchmark main.cpp)
+add_executable(compiler_project_benchmark main.cpp expansive.cpp)
